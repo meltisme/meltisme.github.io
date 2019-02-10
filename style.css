@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+}
+
+body {font-family: "Helvetica";
+background-color: black;
+line-height: 1.2em;
+font-weight: 500;
+font-style: normal;
+font-size: 17px;}
+
+p { color: white;
+}
+ul {color: white;
+font-size: 20px;}
+
+h1 { 
+	font-size: 45px;
+}
+
+h1, h2, h3 {
+color:yellow;
+}
+#home a:visited .bigger h2, .container a:visited h1, .container a:visited h2, a:visited {
+	color: #FFEB54;
+}
+
+.container { 
+	position: relative; 
+    width: 560px;
+	z-index: 10;
+	margin: 0 20px;
+    }
+
+    .link {font-weight: bold;
+    color: yellow;
+  font-size: 20px;}
+
+
+.sfondo {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	overflow-x: hidden;
+	height: 100%;
+	background: url(immagini/sfondo-home.jpg) top no-repeat;
+	background-size: cover;
+}
+
+.sfondo.curriculum {
+	background: url(immagini/sfondo-curriculum.jpg) center top no-repeat;
+	background-size: contain;
+}
+
+.sfondo.contacts {
+	background: url(immagini/sfondo-contacts.jpg) center top no-repeat;
+	background-size: contain;
+}
+
+
+.sfondo.portfolio {
+	position: fixed;
+	background: url(immagini/sfondo-portfolio.jpg) center top no-repeat;
+	background-size: contain;
+}
+
+.portfolio .container {
+	display: flex;
+    width: 100%;
+	justify-content: center;
+}
+
+.container_text--portfolio {
+	display: flex; 
+	height: 30vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#home h2 {
+	line-height: 40px;
+}
+
+#home h1 {
+	padding-bottom: 50px;
+}
+
+
+img {
+	z-index: 0;
+	opacity: 1;
+}
+
+.contatti li a {
+	
+	line-height: 3em;
+}
+
+.container_foto {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
