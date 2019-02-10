@@ -1,0 +1,94 @@
+
+
+/* page structure */
+#wrapper {
+	position:absolute;
+  display: block;
+  max-width: 750px;
+  min-width: 300px;
+  margin: 0 auto;
+/*	top: 420px;
+  margin-left: 50%;
+	left: -320px;*/
+	
+}
+
+#content {
+  display: block;
+  margin: 0 20px;
+  padding: 14px 18px;
+  margin-bottom: 30px;
+ 
+}
+
+
+/* gallery display */
+.photos {
+  display: block;
+}
+
+.photos ul {
+  list-style: none;
+
+}
+
+.photos ul li { display: inline; }
+
+.photos ul li a {
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 10px;
+   margin-bottom: 30px;
+  opacity: 1;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+	text-decoration: none;
+}
+
+.photos ul li img {
+	-webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos ul li img:hover {
+padding: 5px;
+ background-color: #EDFF00;
+}
+
+.photos ul li img:not(:hover) {
+	padding: 5px;
+}
+
+.photos ul li p {
+	margin-left: 5px;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+/* CSS Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; } /* IE 6/7 */
+
+
+/* lightbox hacks */
+
+
+#lightbox-container-image-data-box {
+  display: none !important;
+} 
+
